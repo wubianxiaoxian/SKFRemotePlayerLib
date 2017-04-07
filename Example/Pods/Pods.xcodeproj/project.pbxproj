@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0326BC242794696CDCB3A9D14A61F8B7 /* SKFAudioDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = D644D931A7DDF5AF20F8DA4849AD9963 /* SKFAudioDownLoader.m */; };
+		0A678A603A03118A10AC260DAC284C71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1DD7A220019B784FE1EE23F0CFCE03F5 /* Pods-SKFRemotePlayerLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8868FF200DD4A88C6D94C6CB9DC8F8 /* Pods-SKFRemotePlayerLib_Tests-dummy.m */; };
+		22D4BA5046A5345D315B3D3E9A8C8348 /* SKFRemotePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 320E85C71E69CB8F781D489BFBF19240 /* SKFRemotePlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		315285F40C87EC749184AE79643ABDC9 /* SKFRemotePlayerLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2CFE3427D6367F36524E08D4DE56F5A /* SKFRemotePlayerLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3930BFCE47B3BADF36E034E9D23510F2 /* SKFAudioFileTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5960EFC66E59A67958A658376A367EB5 /* SKFAudioFileTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FC99E2F4156B95ECB66E3D9F9718E72 /* SKFRemotePlayerLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B893FF75005D6F3F99BDAEB35FB21403 /* SKFRemotePlayerLib-dummy.m */; };
+		65A29898D38B1544FC4247EE3608EC20 /* SKFAudioDownLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 927FCB94274D36BC3C305EC20D0EA5C4 /* SKFAudioDownLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65C50263CDB206C382ED75D385B2846B /* NSURL+SKFAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = B31A2AA7B3B3CF4A799C3C236690480B /* NSURL+SKFAudio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A0A9731C9F4AF3951F61D4DFB7503CA /* SKFRemotePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9998DBEBFB32FF834FB7108614D6A7 /* SKFRemotePlayer.m */; };
+		747E8619B9A3D234557BB29BB7F110AD /* Pods-SKFRemotePlayerLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2C3BA42392D77B1A6B9713F92FD728 /* Pods-SKFRemotePlayerLib_Example-dummy.m */; };
+		83AE0C6211E3F6ADA2E9A843C1102C73 /* NSURL+SKFAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 56414118F664F4AFD27BA18891E29F25 /* NSURL+SKFAudio.m */; };
+		8B1A7E62F8CC439CD43B03FEC00B91A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A29C6C99ADE6D151CF2AEE7BB0678615 /* SKFResourceLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 93EF6D2844C78CE6FE221F2A58C018C3 /* SKFResourceLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1112A46A7966070B9CCADCB314B5915 /* Pods-SKFRemotePlayerLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38BDFFD90EED96B42E2C9C21F0086823 /* Pods-SKFRemotePlayerLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDBE43766A1CF1A6DDE232108BDAC72A /* SKFAudioFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D973409B6380B1CE5FD21D432838D01 /* SKFAudioFileTool.m */; };
+		BDE5F115D014C7B8362DDE4556B4DA30 /* SKFResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6540CBC2D280C432CFB883E5A54E158E /* SKFResourceLoader.m */; };
+		CC8AFEAF3C96DC93EC9E49C6AE9813B9 /* Pods-SKFRemotePlayerLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49B067F491E9C4D9A1BF25C58B47A2AE /* Pods-SKFRemotePlayerLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2B707C289CDCC2CF979FCC49207295F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		863CA9A74E95C887526460142594DC62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6967D30C4E31D67623709B3A4CACCBE7;
+			remoteInfo = SKFRemotePlayerLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		019C58D3E6C4ED50A4696F5A8538FC0B /* Pods-SKFRemotePlayerLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKFRemotePlayerLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0D32D85A269FFF177E57776A0B3C2770 /* SKFRemotePlayerLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SKFRemotePlayerLib.modulemap; sourceTree = "<group>"; };
+		183D4D6C123EFCA2CB9A46D025FAE9A7 /* SKFRemotePlayerLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKFRemotePlayerLib.xcconfig; sourceTree = "<group>"; };
+		218B3D6FA79D537B99EC34D7E09A27AA /* Pods-SKFRemotePlayerLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKFRemotePlayerLib_Tests-resources.sh"; sourceTree = "<group>"; };
+		2718A675E6291096C9471D3B9507E6A6 /* Pods-SKFRemotePlayerLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SKFRemotePlayerLib_Tests.modulemap"; sourceTree = "<group>"; };
+		2B9998DBEBFB32FF834FB7108614D6A7 /* SKFRemotePlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SKFRemotePlayer.m; sourceTree = "<group>"; };
+		2BF5CE9F502C739AB1805BDEFEFB08BB /* Pods-SKFRemotePlayerLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKFRemotePlayerLib_Example-resources.sh"; sourceTree = "<group>"; };
+		2D6FEEC41D8FF1D5A291FF55BB02452D /* Pods-SKFRemotePlayerLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKFRemotePlayerLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		320E85C71E69CB8F781D489BFBF19240 /* SKFRemotePlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SKFRemotePlayer.h; sourceTree = "<group>"; };
+		38BDFFD90EED96B42E2C9C21F0086823 /* Pods-SKFRemotePlayerLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKFRemotePlayerLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3A2C3BA42392D77B1A6B9713F92FD728 /* Pods-SKFRemotePlayerLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKFRemotePlayerLib_Example-dummy.m"; sourceTree = "<group>"; };
+		49B067F491E9C4D9A1BF25C58B47A2AE /* Pods-SKFRemotePlayerLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKFRemotePlayerLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		4BF60967700AF50C85E1FC2B0AEF024C /* Pods_SKFRemotePlayerLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SKFRemotePlayerLib_Example.framework; path = "Pods-SKFRemotePlayerLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56414118F664F4AFD27BA18891E29F25 /* NSURL+SKFAudio.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURL+SKFAudio.m"; sourceTree = "<group>"; };
+		575946F7C282FD1DD23A7F679E07DC1E /* Pods-SKFRemotePlayerLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKFRemotePlayerLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5960EFC66E59A67958A658376A367EB5 /* SKFAudioFileTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SKFAudioFileTool.h; sourceTree = "<group>"; };
+		5CE1006820BD897C25168A35FECD0AD0 /* SKFRemotePlayerLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKFRemotePlayerLib-prefix.pch"; sourceTree = "<group>"; };
+		5F8868FF200DD4A88C6D94C6CB9DC8F8 /* Pods-SKFRemotePlayerLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKFRemotePlayerLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		6540CBC2D280C432CFB883E5A54E158E /* SKFResourceLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SKFResourceLoader.m; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7C783AB48E7A99E1160AF79C29A035FA /* Pods_SKFRemotePlayerLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SKFRemotePlayerLib_Tests.framework; path = "Pods-SKFRemotePlayerLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D973409B6380B1CE5FD21D432838D01 /* SKFAudioFileTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SKFAudioFileTool.m; sourceTree = "<group>"; };
+		927FCB94274D36BC3C305EC20D0EA5C4 /* SKFAudioDownLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SKFAudioDownLoader.h; sourceTree = "<group>"; };
+		92D5B117D15C79CBCE0C7DFA5564FEC5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93EF6D2844C78CE6FE221F2A58C018C3 /* SKFResourceLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SKFResourceLoader.h; sourceTree = "<group>"; };
+		9CDACA6F39CD5ABA7581448038B4B378 /* Pods-SKFRemotePlayerLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKFRemotePlayerLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D19BA1B2FA9BE46AC3DC7D1AFF568EC /* Pods-SKFRemotePlayerLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKFRemotePlayerLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A003FAA286997A77C5871691C97C8AC8 /* Pods-SKFRemotePlayerLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SKFRemotePlayerLib_Example.modulemap"; sourceTree = "<group>"; };
+		A050E5D44200534E60211A5D23622334 /* Pods-SKFRemotePlayerLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKFRemotePlayerLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A3BAE5AD172804F84AED18651E8F529C /* Pods-SKFRemotePlayerLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKFRemotePlayerLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B2CFE3427D6367F36524E08D4DE56F5A /* SKFRemotePlayerLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKFRemotePlayerLib-umbrella.h"; sourceTree = "<group>"; };
+		B31A2AA7B3B3CF4A799C3C236690480B /* NSURL+SKFAudio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURL+SKFAudio.h"; sourceTree = "<group>"; };
+		B893FF75005D6F3F99BDAEB35FB21403 /* SKFRemotePlayerLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKFRemotePlayerLib-dummy.m"; sourceTree = "<group>"; };
+		BAEBAEDCB4A67C22C5639BBD61925ADD /* Pods-SKFRemotePlayerLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKFRemotePlayerLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CD6A5990CACEAD8A5EAB4291DF14B2FF /* Pods-SKFRemotePlayerLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKFRemotePlayerLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D644D931A7DDF5AF20F8DA4849AD9963 /* SKFAudioDownLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SKFAudioDownLoader.m; sourceTree = "<group>"; };
+		EC210C0EBD5AB4A7FB40A2C299E445A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F171079020622A6695393E3EB6C02221 /* Pods-SKFRemotePlayerLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKFRemotePlayerLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F29370B9E1F7244BEB30FED7D1200115 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F555A804DD4023ACA5FDE3E40703A905 /* SKFRemotePlayerLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKFRemotePlayerLib.framework; path = SKFRemotePlayerLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02826D3F9274C2DBC44750210CA0A4A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B1A7E62F8CC439CD43B03FEC00B91A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D9D966203C2C3AA698307D45109113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B707C289CDCC2CF979FCC49207295F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0D10D31691765A5ABAEF7BC921231CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A678A603A03118A10AC260DAC284C71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A4EF6D7C5BCEDE2A68E895DA2C4096B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D4CB8A28ECEB57C37E4E293CFE1722D /* SKFRemotePlayerLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		25AE0D96339DE14B68FA1BDA92A3F8F3 /* Pods-SKFRemotePlayerLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				92D5B117D15C79CBCE0C7DFA5564FEC5 /* Info.plist */,
+				A003FAA286997A77C5871691C97C8AC8 /* Pods-SKFRemotePlayerLib_Example.modulemap */,
+				2D6FEEC41D8FF1D5A291FF55BB02452D /* Pods-SKFRemotePlayerLib_Example-acknowledgements.markdown */,
+				F171079020622A6695393E3EB6C02221 /* Pods-SKFRemotePlayerLib_Example-acknowledgements.plist */,
+				3A2C3BA42392D77B1A6B9713F92FD728 /* Pods-SKFRemotePlayerLib_Example-dummy.m */,
+				A3BAE5AD172804F84AED18651E8F529C /* Pods-SKFRemotePlayerLib_Example-frameworks.sh */,
+				2BF5CE9F502C739AB1805BDEFEFB08BB /* Pods-SKFRemotePlayerLib_Example-resources.sh */,
+				49B067F491E9C4D9A1BF25C58B47A2AE /* Pods-SKFRemotePlayerLib_Example-umbrella.h */,
+				019C58D3E6C4ED50A4696F5A8538FC0B /* Pods-SKFRemotePlayerLib_Example.debug.xcconfig */,
+				575946F7C282FD1DD23A7F679E07DC1E /* Pods-SKFRemotePlayerLib_Example.release.xcconfig */,
+			);
+			name = "Pods-SKFRemotePlayerLib_Example";
+			path = "Target Support Files/Pods-SKFRemotePlayerLib_Example";
+			sourceTree = "<group>";
+		};
+		2C55FDFAD9014F87367E248036566E44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BF60967700AF50C85E1FC2B0AEF024C /* Pods_SKFRemotePlayerLib_Example.framework */,
+				7C783AB48E7A99E1160AF79C29A035FA /* Pods_SKFRemotePlayerLib_Tests.framework */,
+				F555A804DD4023ACA5FDE3E40703A905 /* SKFRemotePlayerLib.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D4CB8A28ECEB57C37E4E293CFE1722D /* SKFRemotePlayerLib */ = {
+			isa = PBXGroup;
+			children = (
+				995C2EC36D52AEB9F7F6D9242205157D /* SKFRemotePlayerLib */,
+				F015C9F6635B573614A509F27C53483A /* Support Files */,
+			);
+			name = SKFRemotePlayerLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1A4EF6D7C5BCEDE2A68E895DA2C4096B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2C55FDFAD9014F87367E248036566E44 /* Products */,
+				8A14B2EBC6A427BE04DE22FD2403203E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A14B2EBC6A427BE04DE22FD2403203E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25AE0D96339DE14B68FA1BDA92A3F8F3 /* Pods-SKFRemotePlayerLib_Example */,
+				BF973D741008B89FFC24AC27C42C689D /* Pods-SKFRemotePlayerLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		995C2EC36D52AEB9F7F6D9242205157D /* SKFRemotePlayerLib */ = {
+			isa = PBXGroup;
+			children = (
+				C945945CDA60763223E3E7E62DC42F7D /* Classes */,
+			);
+			name = SKFRemotePlayerLib;
+			path = SKFRemotePlayerLib;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF973D741008B89FFC24AC27C42C689D /* Pods-SKFRemotePlayerLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F29370B9E1F7244BEB30FED7D1200115 /* Info.plist */,
+				2718A675E6291096C9471D3B9507E6A6 /* Pods-SKFRemotePlayerLib_Tests.modulemap */,
+				CD6A5990CACEAD8A5EAB4291DF14B2FF /* Pods-SKFRemotePlayerLib_Tests-acknowledgements.markdown */,
+				9CDACA6F39CD5ABA7581448038B4B378 /* Pods-SKFRemotePlayerLib_Tests-acknowledgements.plist */,
+				5F8868FF200DD4A88C6D94C6CB9DC8F8 /* Pods-SKFRemotePlayerLib_Tests-dummy.m */,
+				A050E5D44200534E60211A5D23622334 /* Pods-SKFRemotePlayerLib_Tests-frameworks.sh */,
+				218B3D6FA79D537B99EC34D7E09A27AA /* Pods-SKFRemotePlayerLib_Tests-resources.sh */,
+				38BDFFD90EED96B42E2C9C21F0086823 /* Pods-SKFRemotePlayerLib_Tests-umbrella.h */,
+				9D19BA1B2FA9BE46AC3DC7D1AFF568EC /* Pods-SKFRemotePlayerLib_Tests.debug.xcconfig */,
+				BAEBAEDCB4A67C22C5639BBD61925ADD /* Pods-SKFRemotePlayerLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-SKFRemotePlayerLib_Tests";
+			path = "Target Support Files/Pods-SKFRemotePlayerLib_Tests";
+			sourceTree = "<group>";
+		};
+		C945945CDA60763223E3E7E62DC42F7D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B31A2AA7B3B3CF4A799C3C236690480B /* NSURL+SKFAudio.h */,
+				56414118F664F4AFD27BA18891E29F25 /* NSURL+SKFAudio.m */,
+				927FCB94274D36BC3C305EC20D0EA5C4 /* SKFAudioDownLoader.h */,
+				D644D931A7DDF5AF20F8DA4849AD9963 /* SKFAudioDownLoader.m */,
+				5960EFC66E59A67958A658376A367EB5 /* SKFAudioFileTool.h */,
+				7D973409B6380B1CE5FD21D432838D01 /* SKFAudioFileTool.m */,
+				320E85C71E69CB8F781D489BFBF19240 /* SKFRemotePlayer.h */,
+				2B9998DBEBFB32FF834FB7108614D6A7 /* SKFRemotePlayer.m */,
+				93EF6D2844C78CE6FE221F2A58C018C3 /* SKFResourceLoader.h */,
+				6540CBC2D280C432CFB883E5A54E158E /* SKFResourceLoader.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F015C9F6635B573614A509F27C53483A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC210C0EBD5AB4A7FB40A2C299E445A8 /* Info.plist */,
+				0D32D85A269FFF177E57776A0B3C2770 /* SKFRemotePlayerLib.modulemap */,
+				183D4D6C123EFCA2CB9A46D025FAE9A7 /* SKFRemotePlayerLib.xcconfig */,
+				B893FF75005D6F3F99BDAEB35FB21403 /* SKFRemotePlayerLib-dummy.m */,
+				5CE1006820BD897C25168A35FECD0AD0 /* SKFRemotePlayerLib-prefix.pch */,
+				B2CFE3427D6367F36524E08D4DE56F5A /* SKFRemotePlayerLib-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SKFRemotePlayerLib";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5A9E2775DBD64859CB9E960E7B28DA2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC8AFEAF3C96DC93EC9E49C6AE9813B9 /* Pods-SKFRemotePlayerLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FFAEC8843590A4F40441E32F3829868 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C50263CDB206C382ED75D385B2846B /* NSURL+SKFAudio.h in Headers */,
+				65A29898D38B1544FC4247EE3608EC20 /* SKFAudioDownLoader.h in Headers */,
+				3930BFCE47B3BADF36E034E9D23510F2 /* SKFAudioFileTool.h in Headers */,
+				22D4BA5046A5345D315B3D3E9A8C8348 /* SKFRemotePlayer.h in Headers */,
+				315285F40C87EC749184AE79643ABDC9 /* SKFRemotePlayerLib-umbrella.h in Headers */,
+				A29C6C99ADE6D151CF2AEE7BB0678615 /* SKFResourceLoader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96EB5DFAE1D9D788CA4A1608DE329E02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1112A46A7966070B9CCADCB314B5915 /* Pods-SKFRemotePlayerLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4D2172900FB51A7678726AA13DA90D48 /* Pods-SKFRemotePlayerLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51FD7D5D931329F4E58C3D6093B10ECA /* Build configuration list for PBXNativeTarget "Pods-SKFRemotePlayerLib_Tests" */;
+			buildPhases = (
+				4663490752AFFDDF9CA309EA9B283721 /* Sources */,
+				56D9D966203C2C3AA698307D45109113 /* Frameworks */,
+				96EB5DFAE1D9D788CA4A1608DE329E02 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SKFRemotePlayerLib_Tests";
+			productName = "Pods-SKFRemotePlayerLib_Tests";
+			productReference = 7C783AB48E7A99E1160AF79C29A035FA /* Pods_SKFRemotePlayerLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5141CA174BDC17BB4C8ADC321CBD8329 /* Pods-SKFRemotePlayerLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 068EAE22619454985FD52CADF762D9F0 /* Build configuration list for PBXNativeTarget "Pods-SKFRemotePlayerLib_Example" */;
+			buildPhases = (
+				8A54DAF4296CCB7BDEF256EB2AB2B430 /* Sources */,
+				E0D10D31691765A5ABAEF7BC921231CC /* Frameworks */,
+				5A9E2775DBD64859CB9E960E7B28DA2E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E51CE58AD5415E78A73B7E8EF88751F1 /* PBXTargetDependency */,
+			);
+			name = "Pods-SKFRemotePlayerLib_Example";
+			productName = "Pods-SKFRemotePlayerLib_Example";
+			productReference = 4BF60967700AF50C85E1FC2B0AEF024C /* Pods_SKFRemotePlayerLib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6967D30C4E31D67623709B3A4CACCBE7 /* SKFRemotePlayerLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC1E22836B2AC82A5BBE9D93EDBA9A6 /* Build configuration list for PBXNativeTarget "SKFRemotePlayerLib" */;
+			buildPhases = (
+				DF8B057C5BCDCA91CAC16252EC60753A /* Sources */,
+				02826D3F9274C2DBC44750210CA0A4A7 /* Frameworks */,
+				8FFAEC8843590A4F40441E32F3829868 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKFRemotePlayerLib;
+			productName = SKFRemotePlayerLib;
+			productReference = F555A804DD4023ACA5FDE3E40703A905 /* SKFRemotePlayerLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2C55FDFAD9014F87367E248036566E44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5141CA174BDC17BB4C8ADC321CBD8329 /* Pods-SKFRemotePlayerLib_Example */,
+				4D2172900FB51A7678726AA13DA90D48 /* Pods-SKFRemotePlayerLib_Tests */,
+				6967D30C4E31D67623709B3A4CACCBE7 /* SKFRemotePlayerLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4663490752AFFDDF9CA309EA9B283721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD7A220019B784FE1EE23F0CFCE03F5 /* Pods-SKFRemotePlayerLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A54DAF4296CCB7BDEF256EB2AB2B430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				747E8619B9A3D234557BB29BB7F110AD /* Pods-SKFRemotePlayerLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8B057C5BCDCA91CAC16252EC60753A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83AE0C6211E3F6ADA2E9A843C1102C73 /* NSURL+SKFAudio.m in Sources */,
+				0326BC242794696CDCB3A9D14A61F8B7 /* SKFAudioDownLoader.m in Sources */,
+				BDBE43766A1CF1A6DDE232108BDAC72A /* SKFAudioFileTool.m in Sources */,
+				6A0A9731C9F4AF3951F61D4DFB7503CA /* SKFRemotePlayer.m in Sources */,
+				5FC99E2F4156B95ECB66E3D9F9718E72 /* SKFRemotePlayerLib-dummy.m in Sources */,
+				BDE5F115D014C7B8362DDE4556B4DA30 /* SKFResourceLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E51CE58AD5415E78A73B7E8EF88751F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKFRemotePlayerLib;
+			target = 6967D30C4E31D67623709B3A4CACCBE7 /* SKFRemotePlayerLib */;
+			targetProxy = 863CA9A74E95C887526460142594DC62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		34DA387BCD961F84AEBEBEE4A80A4F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 019C58D3E6C4ED50A4696F5A8538FC0B /* Pods-SKFRemotePlayerLib_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKFRemotePlayerLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKFRemotePlayerLib_Example/Pods-SKFRemotePlayerLib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKFRemotePlayerLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4206F06B503079DFB2D69627CDF7A49C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAEBAEDCB4A67C22C5639BBD61925ADD /* Pods-SKFRemotePlayerLib_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKFRemotePlayerLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKFRemotePlayerLib_Tests/Pods-SKFRemotePlayerLib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKFRemotePlayerLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		53DF2E56223E02C49D0CA09430D8A12F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D19BA1B2FA9BE46AC3DC7D1AFF568EC /* Pods-SKFRemotePlayerLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKFRemotePlayerLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKFRemotePlayerLib_Tests/Pods-SKFRemotePlayerLib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKFRemotePlayerLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5AD004562BBB2BF4040FF08BACC604E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 183D4D6C123EFCA2CB9A46D025FAE9A7 /* SKFRemotePlayerLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SKFRemotePlayerLib/SKFRemotePlayerLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKFRemotePlayerLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKFRemotePlayerLib/SKFRemotePlayerLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SKFRemotePlayerLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B07CA305586C3C673D7D51E85F6CE186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 183D4D6C123EFCA2CB9A46D025FAE9A7 /* SKFRemotePlayerLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SKFRemotePlayerLib/SKFRemotePlayerLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKFRemotePlayerLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKFRemotePlayerLib/SKFRemotePlayerLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SKFRemotePlayerLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECA8CBE19A7E11DD43732484E8C16F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 575946F7C282FD1DD23A7F679E07DC1E /* Pods-SKFRemotePlayerLib_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKFRemotePlayerLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKFRemotePlayerLib_Example/Pods-SKFRemotePlayerLib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKFRemotePlayerLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		068EAE22619454985FD52CADF762D9F0 /* Build configuration list for PBXNativeTarget "Pods-SKFRemotePlayerLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34DA387BCD961F84AEBEBEE4A80A4F6E /* Debug */,
+				ECA8CBE19A7E11DD43732484E8C16F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51FD7D5D931329F4E58C3D6093B10ECA /* Build configuration list for PBXNativeTarget "Pods-SKFRemotePlayerLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53DF2E56223E02C49D0CA09430D8A12F /* Debug */,
+				4206F06B503079DFB2D69627CDF7A49C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC1E22836B2AC82A5BBE9D93EDBA9A6 /* Build configuration list for PBXNativeTarget "SKFRemotePlayerLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B07CA305586C3C673D7D51E85F6CE186 /* Debug */,
+				5AD004562BBB2BF4040FF08BACC604E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

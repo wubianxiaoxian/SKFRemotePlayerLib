@@ -1,0 +1,16 @@
+PODS:
+  - SKFRemotePlayerLib (0.1.0)
+
+DEPENDENCIES:
+  - SKFRemotePlayerLib (from `../`)
+
+EXTERNAL SOURCES:
+  SKFRemotePlayerLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SKFRemotePlayerLib: 6d5b1e641fd0a22ac8006519df64ed6ef3f1ede5
+
+PODFILE CHECKSUM: 4eff2364ad6fd9a046a7e88f45a4d2949e01c4ea
+
+COCOAPODS: 1.2.0
